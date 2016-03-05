@@ -21,7 +21,7 @@ with(twodays, {
   plot(Time, Sub_metering_1, type="l", ylab = "Energy sub metering", xlab = "")
   lines(Time, Sub_metering_2, col = "red")
   lines(Time, Sub_metering_3, col = "blue")
-  legend("topright", lty = "solid", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+  legend("topright", lty = "solid", bty = "n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
   plot(Time, Global_reactive_power, type="l", xlab = "datetime") })
 
